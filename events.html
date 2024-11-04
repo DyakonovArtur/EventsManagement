@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список событий</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Список событий</h1>
+
+  <!-- Элемент для отображения списка событий -->
+  <ul id="events-list"></ul>
+
+  <!-- Кнопка для возврата на главную страницу -->
+  <button id="back-button">Вернуться на главную</button>
+
+  <script>
+    document.getElementById('back-button').addEventListener('click', () => {
+      window.location.href = 'index.html'; // Переход на главную страницу
+    });
+  </script>
+
+  <!-- Подключаем скрипт для отображения списка событий -->
+  <script src="events.js"></script>
+</body>
+</html>

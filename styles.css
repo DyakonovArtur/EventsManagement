@@ -1,0 +1,54 @@
+@font-face {
+    font-family: faberge;
+    src: url('fonts/Faberge.ttf');
+}
+body {
+    font-family: faberge;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  form, ul {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    font-family: faberge;
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  button {
+    font-family: faberge;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    transition: all 0.5s ease;
+    background-color: #19702c;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  

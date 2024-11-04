@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Управление мероприятиями</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Управление мероприятиями</h1>
+
+  <!-- Кнопка для перехода на страницу создания события -->
+  <button id="create-event-button">Создать событие</button>
+
+  <!-- Кнопка для перехода на страницу со списком событий -->
+  <button id="view-events-button">Просмотреть список событий</button>
+
+  <script>
+    // Обработчики кнопок для навигации
+    document.getElementById('create-event-button').addEventListener('click', () => {
+      window.location.href = 'create.html'; // Переход на страницу создания события
+    });
+
+    document.getElementById('view-events-button').addEventListener('click', () => {
+      window.location.href = 'events.html'; // Переход на страницу списка событий
+    });
+  </script>
+</body>
+</html>
